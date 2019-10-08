@@ -41,8 +41,9 @@ group :development, :test do
   gem 'binding_of_caller'
   gem 'pry-rails'
   gem 'annotate'
-  gem 'jquery-rails'
 end
+
+gem 'jquery-rails'
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
@@ -51,6 +52,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  
 end
 
 group :test do
