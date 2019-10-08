@@ -1,6 +1,6 @@
 import React from "react";
  
-cont App = () => (
+const App = () => (
   <div>
     <h1>AirBnb Clone</h1>
   </div>
