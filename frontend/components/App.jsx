@@ -9,8 +9,9 @@ import { AuthRoute } from "../util/route_util";
 const App = () => (
   <div>
     <header>
-      <h1>AirBnb Clone</h1>
-      <GreetingContainer/>
+      <div className="navbar-div">
+        <GreetingContainer/>
+      </div>
       <div className="background-image-div">
         <img className="background-image" src="https://a0.muscache.com/4ea/air/r:w1550-h1037-sfit,e:fjpg-c80/pictures/0ffd8594-f123-43f0-85bb-7ef88c6f0624.jpg" alt=""/>
       </div>

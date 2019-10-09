@@ -22,8 +22,25 @@
     width: 100%;
   }  */
 
+html, body, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, path,
+dl, dt, dd, ol, ul, li,
+fieldset, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, svg, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+  border: 0;
+}
+
 .background-image-div{
-  /* position: fixed; */
   position: absolute;
   top: 0;
   left: 0;
@@ -39,16 +56,118 @@
 }
  
 .nav-ul {
-  font-weight: 600;
+  padding-top: 15px;
+  padding-right: 135px;
+  display: flex;
+  justify-content: flex-end;
+  /* flex-direction: row; */
 }
 
 .link-li {
-  padding: 8px;
+  padding: 8px 15px;;
   text-decoration: none;
   color: white;
-  border-bottom: 2px solid transparent !important;
+  border-bottom: 2px solid transparent;
+  font-family: Circular;
 }
 
 .link-li:hover {
-  border-bottom: 2px solid !important;
+  border-bottom: 2px solid;
+}
+
+.form-box {
+  background-color: white;
+  /* width: 380px; */
+  margin-left: 100px;
+  margin-top: 59px;
+  border-radius: 4px;
+  padding: 32px 32px 24px 32px;
+  box-shadow: 0 16px 40px rgba(0,0,0,0.12); 
+  width: 349px;
+  height: 378px;
+}
+
+.input-label{
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+
+.input-label-title {
+  font-size: 14px;
+  font-weight: 800;
+  font-family: Circular;
+  color: #484848;
+  padding-bottom: 10px;
+}
+
+.form-input{
+    width: 97%;
+    height: 24px;
+    font-family: Circular;
+    font-size: 15px;
+    padding: 5px;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* .navbar-div {
+  width: 100%;
+  height: 20px;
+} */
+
+.session-submit {
+  background-color: #ff5a5f;
+  padding: 10px 22px;
+  border-radius: 4px;
+  font-size: 16px;
+  display: flex;
+  justify-content: flex-end;
+  font-family: Circular;
+  color: white;
+  margin-left: auto;
+}
+
+.logo {
+  fill: white;
+  margin-right: auto;
+  margin-left: 9px;
+  width: 31px;
+  margin-top: -4px;
+}
+
+.logo:hover {
+  border-bottom: 2px solid transparent;
+}
+
+.welcome-greeting {
+  font-family: Circular;
+  -webkit-font-smoothing: antialiased;
+}
+
+.form-options {
+   font-family: Circular;
+   font-size: 16px;
+   margin: auto;
+   padding-bottom: 12px;
+   padding-top: 0px;
+   padding-left: 10px;
+}
+
+.welcome-text {
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: normal;
+  font-family: Circular;
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+  color: #484848
+}
+
+.link-hover {
+  text-decoration: none;
+  color: #484848;
+}
+
+.link-hover:hover {
+  color: #ff5a5f
 }

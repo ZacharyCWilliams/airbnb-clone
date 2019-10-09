@@ -43,26 +43,29 @@ class SessionForm extends React.Component {
     return(
       <div>
         <form onSubmit={this.handleSubmit}>
-          Welcome to AirBnb!
+          <div className="form-box">
+            <h1 className="welcome-text">Welcome to my Airbnb clone. {this.props.formType} or {this.props.navLink}
+              {this.renderErrors()}</h1>
+            
+            <br/>
+            {/* <div className="form-options">
+            Please {this.props.formType} or {this.props.navLink}
+            {this.renderErrors()}
+            </div> */}
+            <label className="input-label">
+              <p className="input-label-title">Email</p>
+              <input className="form-input" placeholder={"Your email"} value={this.state.email} onChange={this.update("email")}/>
+            </label>
+            <label className="input-label">
+              <p className="input-label-title">Password</p>
+              <input className="form-input" placeholder={"Minimum length: 6 characters"} value={this.state.password} onChange={this.update("password")}/>
+            </label>
+            <label className="input-label">
+              <p className="input-label-title">Name</p>
+              <input className="form-input" placeholder={"Your name"} value={this.state.name} onChange={this.update("name")}/>
+            </label>
           <br/>
-          Please {this.props.formType} or {this.props.navLink}
-          {this.renderErrors()}
-          <div>
-            <br/>
-              <label>
-                Email:
-                <input value={this.state.email} onChange={this.update("email")}/>
-              </label>
-              <label>
-                Password:
-                <input value={this.state.password} onChange={this.update("password")}/>
-              </label>
-              <label>
-                Name:
-                <input value={this.state.name} onChange={this.update("name")}/>
-              </label>
-            <br/>
-              <input className="session-submit" type="submit" value={this.props.formType} />
+            <input className="session-submit" type="submit" value={this.props.formType} />
           </div>
         </form>
       </div>
