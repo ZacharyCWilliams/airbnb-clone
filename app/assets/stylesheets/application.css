@@ -13,3 +13,42 @@
  *= require_tree .
  *= require_self
  */
+
+  /* .background-image {
+    background-image: url("https://a0.muscache.com/4ea/air/r:w1550-h1037-sfit,e:fjpg-c80/pictures/0ffd8594-f123-43f0-85bb-7ef88c6f0624.jpg");
+    display: inline-block;
+    vertical-align: bottom;
+    height: 100%;
+    width: 100%;
+  }  */
+
+.background-image-div{
+  /* position: fixed; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
+
+.background-image{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+ 
+.nav-ul {
+  font-weight: 600;
+}
+
+.link-li {
+  padding: 8px;
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid transparent !important;
+}
+
+.link-li:hover {
+  border-bottom: 2px solid !important;
+}
