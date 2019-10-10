@@ -44,14 +44,8 @@ class SessionForm extends React.Component {
       <div>
         <form onSubmit={this.handleSubmit}>
           <div className="form-box">
-            <h1 className="welcome-text">Welcome to my Airbnb clone. {this.props.formType} or {this.props.navLink}
+            <h1 className="welcome-text">Welcome to my Airbnb clone. {this.props.formType} or {this.props.navLink}.
               {this.renderErrors()}</h1>
-            
-            <br/>
-            {/* <div className="form-options">
-            Please {this.props.formType} or {this.props.navLink}
-            {this.renderErrors()}
-            </div> */}
             <label className="input-label">
               <p className="input-label-title">Email</p>
               <input className="form-input" placeholder={"Your email"} value={this.state.email} onChange={this.update("email")}/>
