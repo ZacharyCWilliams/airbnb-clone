@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import CreateHomeContainer from "../home_form/create_home_container"
 
 const logoSvg = () => {
   return(
@@ -14,12 +15,19 @@ const Greeting = ({ currentUser, logout }) => {
  
   const sendLinks = () => {
     return (
-    <nav className="nav-ul">
-      <Link className={"link-li logo"} to={"/"}>{logoSvg()}</Link>
-      <Link className="link-li" to={"/"}>Airbnb Clone</Link>
-      <Link className="link-li" to={"/signup"}>Sign up</Link>
-      <Link className="link-li" to={"/login"}>Log in</Link>
-    </nav>
+    <div>
+        <div className="navbar-div">
+          <nav className="nav-ul">
+            <Link className={"link-li logo"} to={"/login"}>{logoSvg()}</Link>
+            <Link className="link-li" to={"/login"}>Airbnb Clone</Link>
+            <Link className="link-li" to={"/signup"}>Sign up</Link>
+            <Link className="link-li" to={"/login"}>Log in</Link>
+          </nav>
+        </div>
+        <div className="background-image-div">
+          <img className="background-image" src="https://a0.muscache.com/4ea/air/r:w1550-h1037-sfit,e:fjpg-c80/pictures/0ffd8594-f123-43f0-85bb-7ef88c6f0624.jpg" alt="" />
+        </div>
+    </div>
     )
   }
 

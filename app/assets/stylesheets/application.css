@@ -167,3 +167,99 @@ time, mark, audio, video {
 .link-hover:hover {
   color: #ff5a5f
 }
+
+/* HOME FORM */
+
+.add-a-home {
+  background-color: white;
+  width: 50%;
+  height: 100%;
+  margin: auto;
+}
+
+.create-home-nav {
+  background-color: white;
+  padding-top: 15px;
+  padding-right: 135px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.add-home-logo {
+  fill: #008489;
+}
+
+.add-home-input {
+  width: 55%;
+  height: 40px;
+}
+
+.add-home-label-title {
+  padding-top: 10px;
+}
+
+.add-new-home-button {
+  background-color: #008489;
+}
+
+.add-new-photo {
+  padding: 8px;
+}
+
+/* home show page */
+
+.price-box {
+  border: #e4e4e4 solid 1px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.info-box {
+  border: #e4e4e4 solid 1px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav-div {
+  width: 100%;
+  height: 50px;
+}
+
+.home-title {
+  font-family: 'Oxygen', sans-serif;
+}
+
+.home-index-ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.home-index-li {
+  margin: 35px 8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  width: 260px;
+  height: 175px;
+  list-style-type: none;
+}
+
+.homes-container {
+  width: 90%;
+  margin: auto;
+}
+
+.home-index-title {
+  padding-top: 15px;
+  font-family: 'Oxygen', sans-serif;
+  list-style-type: none;
+  color: rgb(72, 72, 72);
+}
+
+.image-li {
+  width: 100%;
+  height: 175px;
+  /* top: 0px; */
+}

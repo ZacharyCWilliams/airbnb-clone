@@ -1,4 +1,5 @@
 import React from "react";
+import GreetingContainer from "../greeting/greeting_container";
 
 class SessionForm extends React.Component {
   constructor(props) {
@@ -42,6 +43,10 @@ class SessionForm extends React.Component {
   render() {
     return(
       <div>
+        <GreetingContainer />
+        <div className="background-image-div">
+          <img className="background-image" src="https://a0.muscache.com/4ea/air/r:w1550-h1037-sfit,e:fjpg-c80/pictures/0ffd8594-f123-43f0-85bb-7ef88c6f0624.jpg" alt="" />
+        </div>
         <form onSubmit={this.handleSubmit}>
           <div className="form-box">
             <h1 className="welcome-text">Welcome to my Airbnb clone. {this.props.formType} or {this.props.navLink}.
