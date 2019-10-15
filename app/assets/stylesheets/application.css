@@ -206,7 +206,7 @@ time, mark, audio, video {
   padding: 8px;
 }
 
-/* home show page */
+/* home show/index pages */
 
 .price-box {
   border: #e4e4e4 solid 1px;
@@ -218,6 +218,17 @@ time, mark, audio, video {
   border: #e4e4e4 solid 1px;
   display: flex;
   justify-content: flex-start;
+}
+
+.photos-box {
+  border: 1px solid black;
+  height: 300px;
+  width: 100%;
+}
+
+.show-image-home {
+  height: 300px;
+  border: 1px solid black;
 }
 
 .nav-div {
@@ -236,7 +247,7 @@ time, mark, audio, video {
 }
 
 .home-index-li {
-  margin: 35px 8px;
+  margin: 45px 8px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -262,4 +273,43 @@ time, mark, audio, video {
   width: 100%;
   height: 175px;
   /* top: 0px; */
+}
+
+.link-to-home-show {
+   list-style-type: none;
+   text-decoration: none;
+}
+
+.home-price-index {
+  text-decoration: none;
+  font-family: 'Oxygren', sans-serif;
+  color: rgb(72, 72, 72);
+  font-size: 14px;
+  margin: 5px 0px;
+}
+
+.show-home-container-wrapper {
+  width: 75%;
+  margin: auto;
+}
+
+.home-info-li {
+  color: #484848;
+  font-size: 16px;
+  /* font-weight: 600; */
+  padding: 6px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* .subsequent-pics {
+  width: 450px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+} */
+
+.show-image-home-second {
+  border: 1px solid black;
+  width: 26%;
 }

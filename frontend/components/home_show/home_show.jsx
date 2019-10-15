@@ -27,20 +27,24 @@ class HomeShow extends React.Component {
         <nav className="nav-div">
           <Link to="/homes">Homes</Link>
         </nav>
-        <div className="photos-box">
-          <img src={home.photoUrls[0]}/>
+        <div className="show-home-container-wrapper">
+          <div className="photos-box">
+            <img className="show-image-home" src={home.photoUrls[0]}/>
+            <img className="show-image-home-second" src={home.photoUrls[1]}/>
+            <img className="show-image-home-second" src={home.photoUrls[2]}/>
+            
+          </div>
+          <div className="price-box">
+            <p>${home.price} per night</p>
+          </div>
+          <div className="info-box">
           
-        </div>
-        <div className="price-box">
-          <p>${home.price} per night</p>
-        </div>
-        <div className="info-box">
-         
-          <ul>
-            <h1 className="home-title">{home.title}</h1>
-            <li>Lat: {home.lat}</li>
-            <li>Long: {home.long}</li>
-          </ul>
+            <ul>
+              <h1 className="home-title">{home.title}</h1>
+              <li className="home-info-li">Lat: {home.lat}</li>
+              <li className="home-info-li">Long: {home.long}</li>
+            </ul>
+          </div>
         </div>
       </div>
     )
