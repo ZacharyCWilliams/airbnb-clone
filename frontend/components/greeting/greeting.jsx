@@ -10,8 +10,16 @@ const logoSvg = () => {
   )
 } 
 
+const Greeting = ({ currentUser, logout, login }) => {
 
-const Greeting = ({ currentUser, logout }) => {
+  let demoLogin = () => {
+    let demoUser = {
+      email: 'demo@gmail.com',
+      password: 'password7',
+      name: "Demo"
+    }
+    login(demoUser)
+  }
  
   const sendLinks = () => {
     return (
@@ -20,6 +28,7 @@ const Greeting = ({ currentUser, logout }) => {
           <nav className="nav-ul">
             <Link className={"link-li logo"} to={"/login"}>{logoSvg()}</Link>
             <Link className="link-li" to={"/login"}>Airbnb Clone</Link>
+            <Link className="link-li" to={"/homes"} onClick={demoLogin}>Demo</Link>
             <Link className="link-li" to={"/signup"}>Sign up</Link>
             <Link className="link-li" to={"/login"}>Log in</Link>
           </nav>

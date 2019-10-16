@@ -79,7 +79,8 @@ home1 = Home.create!(
   title: 'Gorgeous View & Beautiful Pool',
   price: 107,
   lat: 45.5051,
-  long: 122.6750
+  long: 122.6750,
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eros nibh, dignissim a neque sit amet, consectetur pretium mi. Nam lobortis magna maximus dapibus mattis. Nunc in quam quis massa sodales efficitur. Cras consectetur tristique mi eu elementum. Maecenas tincidunt vulputate arcu ac sodales. Suspendisse pharetra ornare nunc eu consectetur. Curabitur gravida quam eu odio rhoncus tempor. Morbi vel tellus at nisi feugiat imperdiet in sed est. Proin condimentum congue tellus vitae posuere. Aenean non luctus urna. Duis ornare suscipit augue vitae ultricies."
 )
 
 photo1 = open('/Users/zachwilliams/Desktop/airbnb-clone-home-images/seed-file/house-1/1.jpg')
@@ -97,7 +98,8 @@ home2 = Home.create!(
   title: 'Offgrid Wild Lands Camp',
   price: 57,
   lat: 102.863,
-  long: 187.923
+  long: 187.923,
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eros nibh, dignissim a neque sit amet, consectetur pretium mi. Nam lobortis magna maximus dapibus mattis. Nunc in quam quis massa sodales efficitur. Cras consectetur tristique mi eu elementum. Maecenas tincidunt vulputate arcu ac sodales. Suspendisse pharetra ornare nunc eu consectetur. Curabitur gravida quam eu odio rhoncus tempor. Morbi vel tellus at nisi feugiat imperdiet in sed est. Proin condimentum congue tellus vitae posuere. Aenean non luctus urna. Duis ornare suscipit augue vitae ultricies."
 )
 
 h2photo1 = open('/Users/zachwilliams/Desktop/airbnb-clone-home-images/seed-file/house-2/1.jpg')
@@ -115,7 +117,8 @@ home3 = Home.create!(
   title: 'The Woodland Retreat',
   price: 84,
   lat: 24.978,
-  long: 145.221
+  long: 145.221,
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eros nibh, dignissim a neque sit amet, consectetur pretium mi. Nam lobortis magna maximus dapibus mattis. Nunc in quam quis massa sodales efficitur. Cras consectetur tristique mi eu elementum. Maecenas tincidunt vulputate arcu ac sodales. Suspendisse pharetra ornare nunc eu consectetur. Curabitur gravida quam eu odio rhoncus tempor. Morbi vel tellus at nisi feugiat imperdiet in sed est. Proin condimentum congue tellus vitae posuere. Aenean non luctus urna. Duis ornare suscipit augue vitae ultricies."
 )
 
 h3photo1 = open('/Users/zachwilliams/Desktop/airbnb-clone-home-images/seed-file/house-3/1.jpg')
@@ -133,7 +136,8 @@ home4 = Home.create!(
   title: 'Warm Homely Ranch',
   price: 111,
   lat: 112.173,
-  long: 88.291
+  long: 88.291,
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eros nibh, dignissim a neque sit amet, consectetur pretium mi. Nam lobortis magna maximus dapibus mattis. Nunc in quam quis massa sodales efficitur. Cras consectetur tristique mi eu elementum. Maecenas tincidunt vulputate arcu ac sodales. Suspendisse pharetra ornare nunc eu consectetur. Curabitur gravida quam eu odio rhoncus tempor. Morbi vel tellus at nisi feugiat imperdiet in sed est. Proin condimentum congue tellus vitae posuere. Aenean non luctus urna. Duis ornare suscipit augue vitae ultricies."
 )
 
 h4photo1 = open('/Users/zachwilliams/Desktop/airbnb-clone-home-images/seed-file/house-4/1.jpg')
@@ -151,7 +155,8 @@ home5 = Home.create!(
   title: 'Modern Beachfront Paradise',
   price: 197,
   lat: 18,
-  long: 141.12
+  long: 141.12,
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eros nibh, dignissim a neque sit amet, consectetur pretium mi. Nam lobortis magna maximus dapibus mattis. Nunc in quam quis massa sodales efficitur. Cras consectetur tristique mi eu elementum. Maecenas tincidunt vulputate arcu ac sodales. Suspendisse pharetra ornare nunc eu consectetur. Curabitur gravida quam eu odio rhoncus tempor. Morbi vel tellus at nisi feugiat imperdiet in sed est. Proin condimentum congue tellus vitae posuere. Aenean non luctus urna. Duis ornare suscipit augue vitae ultricies."
 )
 
 h5photo1 = open('/Users/zachwilliams/Desktop/airbnb-clone-home-images/seed-file/house-5/1.jpg')
@@ -169,7 +174,8 @@ home6 = Home.create!(
   title: 'The Forest Escape',
   price: 112,
   lat: 64.978,
-  long: 105.111
+  long: 105.111,
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eros nibh, dignissim a neque sit amet, consectetur pretium mi. Nam lobortis magna maximus dapibus mattis. Nunc in quam quis massa sodales efficitur. Cras consectetur tristique mi eu elementum. Maecenas tincidunt vulputate arcu ac sodales. Suspendisse pharetra ornare nunc eu consectetur. Curabitur gravida quam eu odio rhoncus tempor. Morbi vel tellus at nisi feugiat imperdiet in sed est. Proin condimentum congue tellus vitae posuere. Aenean non luctus urna. Duis ornare suscipit augue vitae ultricies."
 )
 
 h6photo1 = open('/Users/zachwilliams/Desktop/airbnb-clone-home-images/seed-file/house-6/1.jpg')
@@ -185,7 +191,8 @@ home7 = Home.create!(
   title: 'Meridian Retreat',
   price: 154,
   lat: 112.867,
-  long: 161.222
+  long: 161.222,
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eros nibh, dignissim a neque sit amet, consectetur pretium mi. Nam lobortis magna maximus dapibus mattis. Nunc in quam quis massa sodales efficitur. Cras consectetur tristique mi eu elementum. Maecenas tincidunt vulputate arcu ac sodales. Suspendisse pharetra ornare nunc eu consectetur. Curabitur gravida quam eu odio rhoncus tempor. Morbi vel tellus at nisi feugiat imperdiet in sed est. Proin condimentum congue tellus vitae posuere. Aenean non luctus urna. Duis ornare suscipit augue vitae ultricies."
 )
 
 # Home 7
@@ -205,7 +212,8 @@ home8 = Home.create!(
   title: 'Rooftop Loft',
   price: 101,
   lat: 115.867,
-  long: 72.101
+  long: 72.101,
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eros nibh, dignissim a neque sit amet, consectetur pretium mi. Nam lobortis magna maximus dapibus mattis. Nunc in quam quis massa sodales efficitur. Cras consectetur tristique mi eu elementum. Maecenas tincidunt vulputate arcu ac sodales. Suspendisse pharetra ornare nunc eu consectetur. Curabitur gravida quam eu odio rhoncus tempor. Morbi vel tellus at nisi feugiat imperdiet in sed est. Proin condimentum congue tellus vitae posuere. Aenean non luctus urna. Duis ornare suscipit augue vitae ultricies."
 )
 
 h8photo1 = open('/Users/zachwilliams/Desktop/airbnb-clone-home-images/seed-file/house-8/1.jpg')
@@ -223,7 +231,8 @@ home9 = Home.create!(
   title: 'Paradise Vacay Spot',
   price: 121,
   lat: 117.001,
-  long: 112.901
+  long: 112.901,
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eros nibh, dignissim a neque sit amet, consectetur pretium mi. Nam lobortis magna maximus dapibus mattis. Nunc in quam quis massa sodales efficitur. Cras consectetur tristique mi eu elementum. Maecenas tincidunt vulputate arcu ac sodales. Suspendisse pharetra ornare nunc eu consectetur. Curabitur gravida quam eu odio rhoncus tempor. Morbi vel tellus at nisi feugiat imperdiet in sed est. Proin condimentum congue tellus vitae posuere. Aenean non luctus urna. Duis ornare suscipit augue vitae ultricies."
 )
 
 h9photo1 = open('/Users/zachwilliams/Desktop/airbnb-clone-home-images/seed-file/house-9/1.jpg')
@@ -239,7 +248,8 @@ home10 = Home.create!(
   title: 'The Golfstream Camper 5000',
   price: 55,
   lat: 75.997,
-  long: 53.828
+  long: 53.828,
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eros nibh, dignissim a neque sit amet, consectetur pretium mi. Nam lobortis magna maximus dapibus mattis. Nunc in quam quis massa sodales efficitur. Cras consectetur tristique mi eu elementum. Maecenas tincidunt vulputate arcu ac sodales. Suspendisse pharetra ornare nunc eu consectetur. Curabitur gravida quam eu odio rhoncus tempor. Morbi vel tellus at nisi feugiat imperdiet in sed est. Proin condimentum congue tellus vitae posuere. Aenean non luctus urna. Duis ornare suscipit augue vitae ultricies."
 )
 
 h10photo1 = open('/Users/zachwilliams/Desktop/airbnb-clone-home-images/seed-file/house-10/1.jpg')
@@ -257,7 +267,8 @@ home11 = Home.create!(
   title: 'The Eco Dome',
   price: 38,
   lat: 115.078,
-  long: 46.997
+  long: 46.997,
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eros nibh, dignissim a neque sit amet, consectetur pretium mi. Nam lobortis magna maximus dapibus mattis. Nunc in quam quis massa sodales efficitur. Cras consectetur tristique mi eu elementum. Maecenas tincidunt vulputate arcu ac sodales. Suspendisse pharetra ornare nunc eu consectetur. Curabitur gravida quam eu odio rhoncus tempor. Morbi vel tellus at nisi feugiat imperdiet in sed est. Proin condimentum congue tellus vitae posuere. Aenean non luctus urna. Duis ornare suscipit augue vitae ultricies."
 )
 
 h11photo1 = open('/Users/zachwilliams/Desktop/airbnb-clone-home-images/seed-file/house-11/1.jpg')
@@ -274,7 +285,8 @@ home12 = Home.create!(
   title: 'Wonder Land Escapade',
   price: 112,
   lat: 202.017,
-  long: 111.182
+  long: 111.182,
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eros nibh, dignissim a neque sit amet, consectetur pretium mi. Nam lobortis magna maximus dapibus mattis. Nunc in quam quis massa sodales efficitur. Cras consectetur tristique mi eu elementum. Maecenas tincidunt vulputate arcu ac sodales. Suspendisse pharetra ornare nunc eu consectetur. Curabitur gravida quam eu odio rhoncus tempor. Morbi vel tellus at nisi feugiat imperdiet in sed est. Proin condimentum congue tellus vitae posuere. Aenean non luctus urna. Duis ornare suscipit augue vitae ultricies."
 )
 
 h12photo1 = open('/Users/zachwilliams/Desktop/airbnb-clone-home-images/seed-file/house-12/1.jpg')
