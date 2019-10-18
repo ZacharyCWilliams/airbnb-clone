@@ -31,6 +31,8 @@ class NavBar extends React.Component {
               <form className="nav-input-form search-bar">
                 <input className="link-li-on-nav search-bar" type="text" placeholder="Search"/>
                 <div className="nav-button-div">
+                  <div className="nav-line-search-button"></div>
+                  <Link to={"/search"} className="link-li-on-nav search-mode-button">Search Mode</Link>
                   <button className="link-li-on-nav search-nav-click">{navSearchButton()}</button>
                 </div>
               </form>

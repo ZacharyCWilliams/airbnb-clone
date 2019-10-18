@@ -56,7 +56,7 @@ class HomeForm extends React.Component {
       <div>
         <nav className="create-home-nav">
           <Link to="/homes">{homeLogoSvg()}</Link>
-          <Link className="link-li" to="/homes">Back</Link>
+          
         </nav>
         <form onSubmit={this.handleSubmit}>
           <div className="add-a-home">

@@ -1,7 +1,7 @@
 class Api::HomesController < ApplicationController
 
   def index 
-    @homes = Home.all()
+    @homes = @homes ? Home.in_bounds(bounds) : Home.all()
     render "api/homes/index"
   end
 
@@ -40,6 +40,10 @@ class Api::HomesController < ApplicationController
 
   def home_params
     params.require(:home).permit(:title, :price, :long, :lat, photos: [])
+  end
+
+  def bounds 
+    params[:bounds]
   end
 
 end

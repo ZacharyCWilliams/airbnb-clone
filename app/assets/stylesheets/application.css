@@ -183,10 +183,12 @@ time, mark, audio, video {
   padding-right: 135px;
   display: flex;
   justify-content: flex-start;
+  border-bottom: 9px solid #edefed;
 }
 
 .add-home-logo {
   fill: #008489;
+  width: 35px;
 }
 
 .add-home-input {
@@ -224,6 +226,7 @@ time, mark, audio, video {
   height: 300px;
   width: 100%;
   display: flex;
+  justify-content: center;
 }
 
 .show-image-home {
@@ -233,7 +236,7 @@ time, mark, audio, video {
 
 .nav-div {
   width: 100%;
-  height: 50px;
+  height: 62px;
 }
 
 .home-title {
@@ -248,11 +251,11 @@ time, mark, audio, video {
 }
 
 .home-index-li {
-  margin: 45px 8px;
+  margin: 50px 8px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 260px;
+  width: 285px;
   height: 175px;
   list-style-type: none;
 }
@@ -264,6 +267,7 @@ time, mark, audio, video {
 
 .home-index-title {
   padding-top: 15px;
+  font-size: 18px;
   font-family: 'Oxygen', sans-serif;
   list-style-type: none;
   color: rgb(72, 72, 72);
@@ -271,7 +275,7 @@ time, mark, audio, video {
 
 .image-li {
   width: 100%;
-  height: 180px;
+  height: 190px;
   border-radius: 3px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
 }
@@ -310,9 +314,9 @@ time, mark, audio, video {
 
 .nav-home-logo {
   fill: #FF5A5F;
-  width: 32px;
-  padding-top: 2px;
-  padding-left: 20px;
+  width: 37px;
+  padding-top: 3px;
+  padding-left: 15px;
 }
 
 .nav-div-home-show {
@@ -337,7 +341,7 @@ time, mark, audio, video {
    width: 100%;
    display: flex;
    justify-content: flex-end;
-   margin-right: 20px;
+   margin-right: 35px;
  }
 
  .search-bar {
@@ -369,24 +373,54 @@ time, mark, audio, video {
 
  .navSearchButton {
    fill: white;
-   width: 1.25em;
-   height: 1.25em;
+   width: 1.10em;
+   height: 1.10em;
  }
 
  .search-nav-click {
-   background-color: black;
+   /* background-color: black;
    border-radius: 8px;
+   margin-left: 5px;
+   margin-right: 5px;
+   cursor: pointer;
+   font-size: 16px;
+   padding-bottom: 3px;
+   padding-top: 7px;
+   padding-left: 7px;
+   padding-right: 7px; */
+   cursor: pointer;
+    display: inline-block;
+    margin: 2px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    border-color: black;
+    width: auto;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600 !;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    outline: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: black;
  }
 
  .nav-input-form {
    display: flex;
-   width: 400px;
+   width: 550px;
    box-shadow: 0 2px 8px rgba(0,0,0,0.16);
    border-radius: 8px;
  }
 
  .button-links-nav {
    font-size: 14px;
+   margin-top: 10px;
  }
 
  .welcome-text-for-homes {
@@ -396,7 +430,7 @@ time, mark, audio, video {
   font-family: 'Oxygen', sans-serif;
   color: #484848;
   margin-top: 30px;
-  margin-bottom: -20px;
+  margin-bottom: -10px;
   margin-left: 3%;
  }
 
@@ -404,3 +438,121 @@ time, mark, audio, video {
    width: 75%;
    margin: auto;
  }
+
+ /* search page */
+
+ #map-container {
+   width: 40%;
+   /* height: 600px; */
+   height: calc(100vh - 60px);
+   position: fixed;
+   right: 5px;
+   margin-top: 30px;
+ }
+
+ .search-page-container {
+   display: flex;
+   flex-direction: row;
+ }
+
+ .search-page-index-container {
+   width: 60%;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+ }
+
+ .search-page-home-card {
+   width: 90%;
+   height: 190px;
+   padding: 5px;
+   margin: 15px 30px;
+   list-style-type: none;
+   border-radius: 3px;
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+ }
+
+ .image-card-home-search {
+   height: 190px;
+   border-radius: 3px;
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+ }
+
+ .card-container-search-homes {
+   display: flex;
+ }
+
+ .search-page-index-item-h1 {
+   color: #484848;
+   font-size: 20px;
+   font-family: 'Oxygen', sans-serif;
+   margin-left: 15px;
+   margin-top: 10px;
+ }
+
+ .card-search-link-router {
+   text-decoration: none;
+ }
+
+ .search-input-text-homes {
+   width: 300px;
+ }
+
+ .search-input-text-div {
+   width: 100%;
+ }
+
+ .nav-button-div {
+   display: flex;
+ }
+
+ .search-mode-button {
+    width: 100px;
+    padding-top: 12px;
+    color: #767676;
+    cursor: pointer;
+ }
+
+ /* .nav-button-div::before {
+   border: 0.5px solid #D8D8D8;
+   content: "";
+   height: 40%;
+ } */
+
+ .nav-line-search-button {
+   border: 0.5px solid #D8D8D8;
+   width: 0px;
+   height: 15px;
+   margin-top: 13px;
+ }
+
+.h1-places-to-stay {
+  margin-left: 30px;
+  margin-bottom: 5px;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 600;
+  margin-top: 30px;
+  font-size: 24px;
+  color: #484848;
+}
+
+.search-page-paragraph {
+    margin-left: 10px;
+    margin-top: 30px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.3em;
+    color: #484848;
+}
+
+
+.img-and-p-tag-search {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.trophy-champ {
+  width: 40px;
+}

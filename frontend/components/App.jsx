@@ -7,6 +7,7 @@ import { AuthRoute, ProtectedRoute } from "../util/route_util";
 import HomeIndexContainer from "./home_index/home_index_container"
 import HomeShowContainer from "./home_show/home_show_container"
 import CreateHomeContainer from "./home_form/create_home_container"
+import SearchPageContainer from "./search_page/search_page_container"
 
  
 const App = () => (
@@ -28,6 +29,7 @@ const App = () => (
       <Route exact path="/homes" component={HomeIndexContainer} />
       <ProtectedRoute exact path="/homes/new" component={CreateHomeContainer}/> 
       <Route path="/homes/:homeId" component={HomeShowContainer} />
+      <Route path="/search" component={SearchPageContainer}/>
     </Switch>
   </div>
 

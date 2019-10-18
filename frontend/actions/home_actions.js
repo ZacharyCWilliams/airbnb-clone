@@ -25,8 +25,8 @@ const removeHome = homeId => {
   })
 }
 
-export const fetchHomes = homes => dispatch => (
-  HomeApiUtil.fetchHomes(homes).then(homes => dispatch(receiveHomes(homes)))
+export const fetchHomes = filters => dispatch => (
+  HomeApiUtil.fetchHomes(filters).then(homes => dispatch(receiveHomes(homes)))
 )
 
 export const fetchHome = home => dispatch => (
